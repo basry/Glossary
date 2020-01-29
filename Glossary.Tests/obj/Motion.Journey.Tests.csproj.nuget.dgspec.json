@@ -1,0 +1,316 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\tmpp\\Glossary\\Motion.Journey.Tests\\Motion.Journey.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\tmpp\\Glossary\\Client\\Client.csproj": {
+      "version": "1.0.59",
+      "restore": {
+        "projectUniqueName": "C:\\tmpp\\Glossary\\Client\\Client.csproj",
+        "projectName": "Motion.Journey.Client",
+        "projectPath": "C:\\tmpp\\Glossary\\Client\\Client.csproj",
+        "packagesPath": "C:\\Users\\mohamed.basry\\.nuget\\packages\\",
+        "outputPath": "C:\\tmpp\\Glossary\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\tmpp\\Glossary\\NuGet.Config",
+          "C:\\Users\\mohamed.basry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.csmotiondev.net/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\tmpp\\Glossary\\Motion.Journey.Tests\\Motion.Journey.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\tmpp\\Glossary\\Motion.Journey.Tests\\Motion.Journey.Tests.csproj",
+        "projectName": "Motion.Journey.Tests",
+        "projectPath": "C:\\tmpp\\Glossary\\Motion.Journey.Tests\\Motion.Journey.Tests.csproj",
+        "packagesPath": "C:\\Users\\mohamed.basry\\.nuget\\packages\\",
+        "outputPath": "C:\\tmpp\\Glossary\\Motion.Journey.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\tmpp\\Glossary\\NuGet.Config",
+          "C:\\Users\\mohamed.basry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.csmotiondev.net/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\tmpp\\Glossary\\Client\\Client.csproj": {
+                "projectPath": "C:\\tmpp\\Glossary\\Client\\Client.csproj"
+              },
+              "C:\\tmpp\\Glossary\\Motion.Journey\\Glossary.csproj": {
+                "projectPath": "C:\\tmpp\\Glossary\\Motion.Journey\\Glossary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.3.101.11, )"
+            },
+            "AWSSDK.SimpleNotificationService": {
+              "target": "Package",
+              "version": "[3.3.2.1, )"
+            },
+            "Amazon.Lambda.DynamoDBEvents": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Amazon.Lambda.TestUtilities": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.8.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.10.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\tmpp\\Glossary\\Motion.Journey\\Glossary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\tmpp\\Glossary\\Motion.Journey\\Glossary.csproj",
+        "projectName": "Glossary",
+        "projectPath": "C:\\tmpp\\Glossary\\Motion.Journey\\Glossary.csproj",
+        "packagesPath": "C:\\Users\\mohamed.basry\\.nuget\\packages\\",
+        "outputPath": "C:\\tmpp\\Glossary\\Motion.Journey\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\tmpp\\Glossary\\NuGet.Config",
+          "C:\\Users\\mohamed.basry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.csmotiondev.net/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.3.101.11, )"
+            },
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.3.6, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.3.18.6, )"
+            },
+            "AWSSDK.SimpleNotificationService": {
+              "target": "Package",
+              "version": "[3.3.2.1, )"
+            },
+            "AWSXRayRecorder.Core": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "AWSXRayRecorder.Handlers.AspNetCore": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "AWSXRayRecorder.Handlers.AwsSdk": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "AWSXRayRecorder.Handlers.System.Net": {
+              "target": "Package",
+              "version": "[2.4.0-beta, )"
+            },
+            "Amazon.Lambda.AspNetCoreServer": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Amazon.Lambda.DynamoDBEvents": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Amazon.Lambda.SNSEvents": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "target": "Package",
+              "version": "[2.1.5, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.5, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[12.0.13, )"
+            },
+            "NodaTime": {
+              "target": "Package",
+              "version": "[2.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
